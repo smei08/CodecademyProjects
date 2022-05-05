@@ -1,5 +1,8 @@
-h1 {
+div {
   font-family: Helvetica;
+}
+/* header */
+h1 {
   font-size: 100px;
   font-weight: bold;
   color: khaki;
@@ -9,3 +12,18 @@ h1 {
   /* background-color: black; */
   background-image: url("../images/pattern.jpeg");
 }
+
+/* brushes */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  background-color: mediumspringgreen;
+}
+.price {
+  font-weight: bold;
+  color: blue;
+}
+/* frames */
+/* paint */
+/* footer */

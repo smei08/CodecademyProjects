@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  /* background-color: lightgray; */
+  position: fixed;
+  padding: 0 20px;
+  text-align: center;
+  width: 100%;
+  z-index: 10;
+  border-bottom: 1px solid gray;
+}
+a {
+  font-size: larger;
+  margin: 30px 80px;
+  padding: 10px 20px;
+  text-align: center;
+  display: inline-block;
+  width: 100px;
+  border: 1px solid gray;
+  color: orange;
+  text-decoration: none;
+  border-radius: 10px;
+}
+a:hover {
+  background: gray;
+}
+img {
+  width: 250px;
+  margin-top: 200px;
+  margin-left: 100px;
+  border: 1px solid;
+  border-radius: 50%;
+}

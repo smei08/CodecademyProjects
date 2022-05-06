@@ -7,13 +7,14 @@
     <title>CSS Pseudo-Classes and Pseudo-Elements</title>
     <link type="text/css" rel="stylesheet" href="index.css" />
   </head>
+
   <div>
     <!-- header -->
     <div>
       <h1>CSS Pseudo Reference</h1>
     </div>
 
-    <!-- pseudo class table -->
+    <!-- pseudo class -->
     <div>
       <h2 class="classes">Pseudo Classes</h2>
       <p>
@@ -21,8 +22,13 @@
         that are in a specific state, <br />
         e.g. they are the first element of their type, <br />
         or they are being hovered over by the mouse pointer.
+        <br /><br />
+        * Click Example to Test *
       </p>
+
+      <!-- pseudo class table -->
       <table>
+        <!-- pseudo class table-head -->
         <thead>
           <tr>
             <th>Selector</th>
@@ -30,23 +36,32 @@
             <th>Example Description</th>
           </tr>
         </thead>
+
+        <!-- pseudo class table-body -->
         <tbody>
           <tr>
             <td class="code">:active</td>
-            <td class="active">
-              <a
-                href="https://www.w3schools.com/cssref/sel_active.asp"
-                target="_blank"
-              >
-                a:active
-              </a>
-            </td>
+            <td class="active example">a:active</td>
             <td>Select and style active link</td>
           </tr>
           <tr>
             <td class="code">:hover</td>
-            <td class="hover">p:hover</td>
+            <td class="hover example">p:hover</td>
             <td>Select element when mouse over them</td>
+          </tr>
+          <tr>
+            <td class="code">:link</td>
+            <td class="link example">
+              <a href="index.html" target="_blank">a:link</a>
+            </td>
+            <td>Select unvisited links</td>
+          </tr>
+          <tr>
+            <td class="code">:visited</td>
+            <td class="visit example">
+              <a href="index.html" target="_blank">a:visited</a>
+            </td>
+            <td>Select visited links</td>
           </tr>
         </tbody>
       </table>

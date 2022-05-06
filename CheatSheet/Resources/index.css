@@ -1,5 +1,5 @@
 html {
-  font-family: monospace;
+  font-family: serif;
   background-color: lavender;
 }
 h1 {
@@ -42,6 +42,16 @@ th {
 td {
   border-top: 1px solid darkorchid;
 }
+.code {
+  font-family: monospace;
+  background-color: rgba(153, 50, 204, 0.203);
+}
+.active a {
+  text-decoration: none;
+}
 .active a:active {
+  background-color: yellow;
+}
+.hover:hover {
   background-color: yellow;
 }

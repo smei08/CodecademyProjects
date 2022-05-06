@@ -1,6 +1,7 @@
 html {
   font-family: serif;
   background-color: lavender;
+  overflow: scroll;
 }
 h1 {
   text-align: center;
@@ -66,4 +67,12 @@ td {
 }
 .visit a:visited {
   color: yellow;
+}
+.foc input {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
+.foc input:focus {
+  background-color: yellow;
 }

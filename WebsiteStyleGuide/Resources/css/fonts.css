@@ -1,0 +1,74 @@
+.text {
+  border-top: 2px black solid;
+  margin-top: 20px;
+}
+
+.fonts {
+  border: 2px black solid;
+  border-radius: 10px;
+  padding: 5px;
+  display: grid;
+  text-align: center;
+  gap: 5px;
+  font-size: 25px;
+}
+
+.description {
+  font-size: 20px;
+}
+.light {
+  font-weight: 100;
+}
+.bold {
+  font-weight: bold;
+}
+.italic {
+  font-style: italic;
+}
+.a {
+  font-size: 30px;
+  text-decoration: underline;
+}
+.arial {
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: Arial;
+}
+.verdana {
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: Verdana, sans-serif;
+}
+.helvetica {
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: Helvetica;
+}
+.times {
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: "Times New Roman", Times, serif;
+}
+.georgia {
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: Georgia;
+}
+.courier {
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: "Courier New", Courier, monospace;
+}
+.brush {
+  background-color: gainsboro;
+  border-radius: 10px;
+  padding: 5px;
+  font-family: "Brush Script MT";
+  font-size: 40px;
+}

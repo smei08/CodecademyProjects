@@ -1,7 +1,11 @@
-* {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+h1 {
+  border-bottom: 2px black solid;
+  padding-bottom: 10px;
+  font-size: 40px;
 }
-
+h2 {
+  font-size: 35px;
+}
 .body {
   margin-left: 101px;
   margin-right: 101px;

@@ -6,84 +6,82 @@
   margin-left: 101px;
   margin-right: 101px;
 }
-.color {
-  border: 2px black solid;
-  padding: 15px;
-  border-radius: 10px;
-}
 
 .container {
   text-align: center;
   min-width: 300px;
   display: grid;
+  border: 2px black solid;
+  border-radius: 10px;
   grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
   color: white;
   gap: 5px;
+  padding: 5px;
 }
 
 .black {
   background-color: black;
-  border: black;
+  border-radius: 10px;
 }
 .silver {
   background-color: silver;
-  border: silver;
+  border-radius: 10px;
 }
 .gray {
   background-color: gray;
-  border: gray;
+  border-radius: 10px;
 }
 .white {
   background-color: white;
   color: black;
-  border: white;
+  border-radius: 10px;
 }
 .maroon {
   background-color: maroon;
-  border: maroon;
+  border-radius: 10px;
 }
 .red {
   background-color: red;
-  border: red;
+  border-radius: 10px;
 }
 .purple {
   background-color: purple;
-  border: purple;
+  border-radius: 10px;
 }
 .fuchsia {
   background-color: fuchsia;
-  border: fuchsia;
+  border-radius: 10px;
 }
 .green {
   background-color: green;
-  border: green;
+  border-radius: 10px;
 }
 .lime {
   background-color: lime;
-  border: lime;
+  border-radius: 10px;
 }
 .olive {
   background-color: olive;
-  border: olive;
+  border-radius: 10px;
 }
 .yellow {
   background-color: yellow;
   color: black;
-  border: yellow;
+  border-radius: 10px;
 }
 .navy {
   background-color: navy;
-  border: navy;
+  border-radius: 10px;
 }
 .blue {
   background-color: blue;
-  border: blue;
+  border-radius: 10px;
 }
 .teal {
   background-color: teal;
-  border: teal;
+  border-radius: 10px;
 }
 .aqua {
   background-color: aqua;
-  border: aqua;
+  border-radius: 10px;
 }

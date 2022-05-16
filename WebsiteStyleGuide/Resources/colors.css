@@ -1,0 +1,70 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body {
+  margin-left: 101px;
+  margin-right: 101px;
+}
+
+.container {
+  text-align: center;
+  min-width: 300px;
+  display: grid;
+  border: 2px black solid;
+  grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
+  color: white;
+  gap: 5px;
+  padding: 5px;
+}
+
+.black {
+  background-color: black;
+}
+.silver {
+  background-color: silver;
+}
+.gray {
+  background-color: gray;
+}
+.white {
+  background-color: white;
+  color: black;
+}
+.maroon {
+  background-color: maroon;
+}
+.red {
+  background-color: red;
+}
+.purple {
+  background-color: purple;
+}
+.fuchsia {
+  background-color: fuchsia;
+}
+.green {
+  background-color: green;
+}
+.lime {
+  background-color: lime;
+}
+.olive {
+  background-color: olive;
+}
+.yellow {
+  background-color: yellow;
+  color: black;
+}
+.navy {
+  background-color: navy;
+}
+.blue {
+  background-color: blue;
+}
+.teal {
+  background-color: teal;
+}
+.aqua {
+  background-color: aqua;
+}

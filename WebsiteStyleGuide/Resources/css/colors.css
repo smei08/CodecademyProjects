@@ -6,65 +6,84 @@
   margin-left: 101px;
   margin-right: 101px;
 }
+.color {
+  border: 2px black solid;
+  padding: 15px;
+  border-radius: 10px;
+}
 
 .container {
   text-align: center;
   min-width: 300px;
   display: grid;
-  border: 2px black solid;
   grid-template: 1fr 1fr 1fr 1fr/ 1fr 1fr 1fr 1fr;
   color: white;
   gap: 5px;
-  padding: 5px;
 }
 
 .black {
   background-color: black;
+  border: black;
 }
 .silver {
   background-color: silver;
+  border: silver;
 }
 .gray {
   background-color: gray;
+  border: gray;
 }
 .white {
   background-color: white;
   color: black;
+  border: white;
 }
 .maroon {
   background-color: maroon;
+  border: maroon;
 }
 .red {
   background-color: red;
+  border: red;
 }
 .purple {
   background-color: purple;
+  border: purple;
 }
 .fuchsia {
   background-color: fuchsia;
+  border: fuchsia;
 }
 .green {
   background-color: green;
+  border: green;
 }
 .lime {
   background-color: lime;
+  border: lime;
 }
 .olive {
   background-color: olive;
+  border: olive;
 }
 .yellow {
   background-color: yellow;
   color: black;
+  border: yellow;
 }
 .navy {
   background-color: navy;
+  border: navy;
 }
 .blue {
   background-color: blue;
+  border: blue;
 }
 .teal {
   background-color: teal;
+  border: teal;
 }
 .aqua {
   background-color: aqua;
+  border: aqua;
 }

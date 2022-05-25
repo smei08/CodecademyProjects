@@ -1,0 +1,10 @@
+.style {
+  border-top: 2px black solid;
+  margin-top: 20px;
+}
+.headings {
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  min-width: 350px;
+}

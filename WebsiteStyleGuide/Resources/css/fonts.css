@@ -8,14 +8,13 @@
   border-radius: 10px;
   padding: 5px;
   display: grid;
+  grid-template-columns: 1fr 1fr;
   text-align: center;
   gap: 5px;
-  font-size: 25px;
+  min-width: 350px;
+  /* font-size: 20px; */
 }
 
-.description {
-  font-size: 20px;
-}
 .light {
   font-weight: 100;
 }
@@ -30,45 +29,52 @@
   text-decoration: underline;
 }
 .arial {
-  background-color: gainsboro;
+  background-color: rgb(241, 241, 241);
   border-radius: 10px;
   padding: 5px;
   font-family: Arial;
 }
 .verdana {
-  background-color: gainsboro;
+  background-color: rgb(241, 241, 241);
   border-radius: 10px;
   padding: 5px;
   font-family: Verdana, sans-serif;
 }
 .helvetica {
-  background-color: gainsboro;
+  background-color: rgb(241, 241, 241);
   border-radius: 10px;
   padding: 5px;
   font-family: Helvetica;
 }
 .times {
-  background-color: gainsboro;
+  background-color: rgb(241, 241, 241);
   border-radius: 10px;
   padding: 5px;
   font-family: "Times New Roman", Times, serif;
 }
 .georgia {
-  background-color: gainsboro;
+  background-color: rgb(241, 241, 241);
   border-radius: 10px;
   padding: 5px;
   font-family: Georgia;
 }
 .courier {
-  background-color: gainsboro;
+  background-color: rgb(241, 241, 241);
   border-radius: 10px;
   padding: 5px;
   font-family: "Courier New", Courier, monospace;
 }
 .brush {
-  background-color: gainsboro;
+  background-color: rgb(241, 241, 241);
   border-radius: 10px;
   padding: 5px;
   font-family: "Brush Script MT";
-  font-size: 40px;
+  /* font-size: 35px; */
+}
+.google {
+  font-size: 35px;
+  text-align: center;
+  background-color: rgb(241, 241, 241);
+  border-radius: 10px;
+  padding: 5px;
 }

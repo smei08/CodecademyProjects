@@ -1,0 +1,44 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  padding: 0;
+  margin: 0;
+}
+
+/* header (logo & navbar) */
+.header {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+}
+.header img {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: inline-flex;
+  float: left;
+}
+.navbar ul {
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+  text-align: right;
+  vertical-align: top;
+}
+.navbar li {
+  display: inline-flex;
+  align-items: center;
+}
+.navbar a {
+  width: 100%;
+  text-decoration: underline;
+  display: block;
+  color: seashell;
+  padding-top: 20px;
+  padding-right: 10px;
+  margin-right: 10px;
+}

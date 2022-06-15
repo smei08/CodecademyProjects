@@ -4,41 +4,40 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
-  padding: 0;
+  text-align: center;
   margin: 0;
 }
 
 /* header (logo & navbar) */
 .header {
-  position: fixed;
-  border-bottom: 1px solid seashell;
   width: 100%;
   height: 69px;
+  display: block;
+  position: fixed;
+  border-bottom: 1px solid seashell;
 }
-.header img {
+.logo {
   height: 50px;
+  float: left;
   padding-left: 10px;
   padding-top: 10px;
-  display: inline-flex;
-  float: left;
 }
-.navbar ul {
-  padding: 0px;
-  margin: 0;
-  list-style: none;
-  text-align: right;
-  vertical-align: top;
-}
-.navbar li {
+.navbar {
   display: inline-flex;
-  align-items: center;
+  height: 100%;
+  float: right;
+  margin: 0 auto;
 }
 .navbar a {
-  width: 100%;
-  text-decoration: underline;
-  display: block;
-  color: seashell;
-  padding-top: 20px;
-  padding-right: 10px;
-  margin-right: 10px;
+  padding: 0px 20px;
 }
+.navbar a li {
+  list-style: none;
+  text-decoration: underline;
+  align-items: center;
+  height: 100%;
+  color: seashell;
+  vertical-align: middle;
+  padding-top: 20px;
+}
+/* body (our mission) */

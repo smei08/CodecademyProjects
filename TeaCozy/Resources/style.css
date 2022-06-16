@@ -11,33 +11,27 @@ body {
 /* header (logo & navbar) */
 .header {
   width: 100%;
-  height: 69px;
-  display: block;
   position: fixed;
+  height: 69px;
   border-bottom: 1px solid seashell;
 }
-.logo {
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.container img {
   height: 50px;
-  float: left;
-  padding-left: 10px;
-  padding-top: 10px;
+  padding: 10px 0 0 10px;
+  margin-right: auto;
 }
-.navbar {
-  display: inline-flex;
-  height: 100%;
-  float: right;
-  margin: 0 auto;
+.container nav {
+  margin-top: auto;
+  margin-bottom: auto;
 }
-.navbar a {
+.container span {
   padding: 0px 20px;
-}
-.navbar a li {
-  list-style: none;
   text-decoration: underline;
-  align-items: center;
-  height: 100%;
-  color: seashell;
-  vertical-align: middle;
-  padding-top: 20px;
 }
+
 /* body (our mission) */

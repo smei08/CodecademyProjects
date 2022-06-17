@@ -70,9 +70,7 @@ body {
 .tea-month-icon {
   display: flex;
   flex-flow: row wrap;
-  align-items: center;
   justify-content: center;
-  margin: 0 auto 0 auto;
 }
 .tea-month-icon span {
   padding: 10px;
@@ -113,4 +111,15 @@ body {
 .east-bayside {
   margin-right: 40px;
   margin-left: 40px;
+}
+
+/* footer */
+#footer {
+  height: 200px;
+  width: 1200px;
+  display: block;
+}
+.copyright {
+  text-align: left;
+  padding-left: 20px;
 }

@@ -65,6 +65,7 @@ body {
   width: 1000px;
   padding-top: 69px;
   margin: 0 auto 0 auto;
+  padding-bottom: 69px;
 }
 .tea-month-icon {
   display: flex;
@@ -76,8 +77,48 @@ body {
 .tea-month-icon span {
   padding: 10px;
   display: inline-block;
+  text-decoration: none;
 }
 .tea-month-icon img {
   width: 300px;
   height: 200px;
+}
+
+/* body (locations) */
+#locations {
+  background-image: url(images/img-locations-background.jpeg);
+  height: 500px;
+  width: 1200px;
+  padding-top: 69px;
+  margin: 0px auto;
+  align-items: center;
+  margin: 0 auto;
+}
+#locations h2 {
+  position: relative;
+  margin: 0 auto 0 auto;
+  text-align: center;
+  top: -200px;
+  left: 500px;
+}
+.address span {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  padding: 0;
+  position: relative;
+  right: 95px;
+  width: 300px;
+  text-decoration: none;
+}
+.address h4 {
+  font-weight: 300;
+}
+.address .title {
+  font-weight: bolder;
+}
+.east-bayside {
+  margin-right: 40px;
+  margin-left: 40px;
 }

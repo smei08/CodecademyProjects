@@ -7,31 +7,73 @@ body {
   text-align: center;
   margin: 0;
 }
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  top: 0;
+}
 
 /* header (logo & navbar) */
-.header {
+#header {
   width: 100%;
   position: fixed;
   height: 69px;
   border-bottom: 1px solid seashell;
+  background-color: black;
 }
-.container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-.container img {
+.flex-container img {
   height: 50px;
   padding: 10px 0 0 10px;
   margin-right: auto;
 }
-.container nav {
+.flex-container nav {
   margin-top: auto;
   margin-bottom: auto;
 }
-.container span {
+.flex-container span {
   padding: 0px 20px;
   text-decoration: underline;
 }
 
 /* body (our mission) */
+#mission {
+  padding-top: 70px;
+  margin: 0px auto;
+  width: 1200px;
+  display: flex;
+}
+.description {
+  background-image: url(images/img-mission-background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+.description div {
+  text-align: center;
+  background-color: black;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: center;
+  width: 1200px;
+}
+.description h2 {
+  margin-top: 300px;
+}
+/* body (tea of the moneth) */
+#tea {
+  width: 1000px;
+  padding-top: 69px;
+  margin: 0 auto 0 auto;
+}
+.tea-month-icon {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 0 auto;
+}
+.tea-month-icon img {
+  width: 300px;
+  height: 200px;
+}

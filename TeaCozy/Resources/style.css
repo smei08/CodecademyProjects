@@ -73,6 +73,10 @@ body {
   justify-content: center;
   margin: 0 auto 0 auto;
 }
+.tea-month-icon span {
+  padding: 10px;
+  display: inline-block;
+}
 .tea-month-icon img {
   width: 300px;
   height: 200px;
